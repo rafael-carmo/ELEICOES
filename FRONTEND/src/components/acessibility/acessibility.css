@@ -1,0 +1,24 @@
+.acessibility {
+    height: 28px;
+    background-color: #59358c;
+    display: flex;
+    justify-content: center;
+}
+.acessibilityContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+}
+.acessibilityContainer > span {
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.iconInfo {
+    font-size: 14px;
+    color: #feb502;
+}
