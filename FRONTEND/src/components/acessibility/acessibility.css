@@ -6,19 +6,34 @@
 }
 .acessibilityContainer {
     width: 100%;
-    max-width: 1024px;
+    max-width: 952px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: end;
+    padding: 4px 0;
     gap: 5px;
 }
-.acessibilityContainer > span {
-    font-size: 12px;
-    font-weight: bold;
-    
+.acessibilityContainer > ul {
+    display: flex;
+    gap: 5px;
+    list-style-type: none;
 }
 .iconInfo {
     font-size: 14px;
     color: #feb502;
+}
+.iconInfo:hover {
+    color: white;
+}
+a:link,
+a:visited {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+a:hover {
+    text-decoration: underline;
+    color: white;
 }
